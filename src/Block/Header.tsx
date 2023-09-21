@@ -3,7 +3,7 @@ import React from "react";
 import { styled } from "styled-components";
 import img from "../Assets/logo.fee874adf31c8eb1115b.jpg";
 import { NavLink } from "react-router-dom";
-import { BsSearch } from "react-icons/bs";
+// import { BsSearch } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -15,9 +15,7 @@ const Header = () => {
         </Image>
 
         <End>
-          <Search>
-            <BsSearch />
-          </Search>
+          <Search>{/* <BsSearch /> */}</Search>
         </End>
 
         <NavLink to="/upload-book" style={{ textDecoration: "none" }}>
